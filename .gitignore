@@ -1,0 +1,82 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode
+# Editar en https://www.toptal.com/developers/gitignore?templates=macos,windows,visualstudiocode
+
+### Mac OS ###
+# General
+.DS_Tienda
+.AppleDoble
+.LSOanular
+
+# El ícono debe terminar con dos \r
+Icono
+
+
+# Miniaturas
+._*
+
+# Archivos que pueden aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Foco-V100
+.TemporaryItems
+.Papeleras
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en recursos compartidos AFP remotos
+.AppleDB
+.AppleDesktop
+Papelera de red
+Artículos temporales
+.apdisk
+
+### Parche de macOS ###
+# archivos generados por iCloud
+*.icloud
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/configuración.json
+!.vscode/tareas.json
+!.vscode/lanzamiento.json
+!.vscode/extensiones.json
+!.vscode/*.fragmentos de código
+
+# Historial local para Visual Studio Code
+.historia/
+
+# Extensiones de código de Visual Studio integradas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+.ionuro
+
+### Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Volcar archivo
+*.stackdump
+
+# archivo de configuración de la carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$RECICLAJE.BIN/
+
+# archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode
