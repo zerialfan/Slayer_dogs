@@ -1,3 +1,5 @@
+let playerState = 'run';
+const dropDown = document.getElementById('animations');
 const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 const CANVAS_WIDTH = canvas.width= 600;
@@ -6,11 +8,12 @@ const spriteWidthX = 575;
 const spriteHeightY = 528;
 let gameFrame = 0;
 const staggerFrame = 4;
-let playerState = 'run';
 
 const playerImage = new Image();
 playerImage.src = 'shadow_dog.png';
-
+dropDown.addEventListener('change', function (e) {
+    playerState = e.target.value;
+})
 const spriteAnimation =[];
 const animationStates =[{
     name:'idle',
